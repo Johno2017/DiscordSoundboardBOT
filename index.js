@@ -8,7 +8,7 @@ const ytdl = require('ytdl-core');
 
 var servers = {};
 
-const token = 'Njk1MTcyMjQ4MDYzMDQ5Nzc5.XoWVxQ.uQGnLbq0YADSXzLXVlzuqU77PMU';
+const token = process.env.token;
 
 const PREFIX = '!';
 
